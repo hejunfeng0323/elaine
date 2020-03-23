@@ -1,0 +1,175 @@
+.FImg {
+    width:10rem;
+    position: fixed;
+    right: 0;
+    top: 25%;
+    display: none;
+}
+
+.FImg img {
+    width: 100%;
+}
+.weixin {
+	padding-bottom:3rem !important;
+}
+.redCopy {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 1rem;
+    background: #e50150;
+    width: 100%;
+    padding: .8rem 0;
+    text-align: center;
+    z-index: 999;
+
+}
+
+.weixin {
+    padding-bottom: 3rem;
+}
+
+.swiper-container {
+    z-index: 0;
+}
+
+.weichaticon {
+    z-index: 3;
+}
+
+.wat-fixed {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    width: 16%;
+    z-index: 120;
+}
+
+.ma-fixed {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    width: 16%;
+    display: none;
+}
+
+.num-fixed {
+    width: 80%;
+    position: fixed;
+    left: 50%;
+    margin-left: -40%;
+    top: 30%;
+    background: #fff;
+    border-radius: 5px;
+    padding-bottom: 2% 0;
+    box-shadow: 0 0 5px #ccc;
+    display: none;
+    z-index: 130;
+}
+
+.num-fixed .weixin-number {
+    padding: 2% 0;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #09bb07;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.num-fixed p {
+    text-align: center;
+    font-size: 14px;
+    margin: 2% 0;
+}
+
+.num-fixed .close {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    color: #333;
+    font-size: 20px;
+}
+
+.num-fixed a {
+    width: 40%;
+    text-align: center;
+    margin: 4% auto;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2% 0;
+    background: #09bb07;
+    font-size: 14px;
+    display: block;
+}
+
+
+@media screen and (min-width: 800px) {
+    .FImg {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .wat-fixed {
+        display: none
+    }
+
+    .qrcode_img {
+        display: block;
+    }
+
+    .dia_wx .mask_dia {
+        width: 500px;
+        height: 218px;
+    }
+}
+
+body{
+    padding-bottom: 3rem !important;
+}
+
+.onlineMsgBG {
+    display: none;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    z-index: 1001;
+}
+
+.onlineMsgBG .onlineMsg {
+    width: 70%;
+    padding-top: .8rem;
+    background: #fff;
+    border-radius: .2rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 30%;
+    margin:  0 auto;
+}
+
+.onlineMsgBG .onlineMsg .copy_txt {
+    color: #333;
+    text-align: center;
+    font-size: .9rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.onlineMsgBG .onlineMsg .copy_btn {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: .8rem 0;
+    margin-top: .5rem;
+    color: #596b91;
+    display: block;
+    border-top: #eee solid 1px;
+}
